@@ -24,7 +24,7 @@ const[PhotoUrl,setPhotoUrl]=useState();
   return (
     <Link to={'/view-trip/'+trip?.id}>
     <div className='hover:scale-105 transition-all'>
-      <img src={PhotoUrl?PhotoUrl:'/public/placeholder.jpg'}
+      <img src={PhotoUrl?PhotoUrl:'/placeholder.jpg'}
         className="h-[250px] w-full object-cover rounded-xl" />
 
         
